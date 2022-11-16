@@ -2,41 +2,45 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
-index
+          index
         </title>
         <style>
-            body a:nth-of-type(1):link{
-				color: brown;
-			}
-			body a:nth-of-type(2):link{
-				color: yellow;
-			}
-			body a:nth-of-type(3):link{
-				color: green;
-			}
-			body a:nth-of-type(4):link{
-				color: red;
-			}
-			a:nth-child(1):visited{
-				color: goldenrod;
-			}
-			a:nth-child(2):visited{
-				color: orange;
-			}
-			a:nth-child(3):visited{
-				color: purple;
-			}
-			a:nth-child(4):visited{
-				color: indianred;
-			}
-			h1{
-				text-align: center;
-				font-size: 24px;
-			}
-			p{
-				font-size: 120%;
-			}
+        h1 {
+            text-align: center;
+            font-size: 24px;
+        }
+        p {
+            font-size: 120%;
+        }
+    	a {
+    		display: block;
+    	}
+        a:nth-child(1):link {
+            color: black;
+        }
+        a:nth-child(2):link {
+            color: purple;
+        }
+        a:nth-child(3):link {
+            color: green;
+        }
+        a:nth-child(4):link {
+            color: blue;
+        }
+        a:nth-child(1):visited {
+            color: red;
+        }
+        a:nth-child(2):visited {
+            color: brown;
+        }
+        a:nth-child(3):visited {
+            color: orange;
+        }
+        a:nth-child(4):visited {
+            color: khaki;
+        }
         </style>
     </head>
 
@@ -46,9 +50,11 @@ index
             Мене звати Іван. Народився у селі Гарасимів, Тлумацького району.<br>
             Мені 17 років. Навчаюсь у ПНУ імені Василя Стефаника. Люблю аніме.
         </p>
-        <a href="biography.html">Біографія</a><br>
-        <a href="novadays.html">Сьогодення</a><br>
-        <a href="gallery.html">Галерея</a><br>
-        <a href="friends.html">Друзі</a><br>
+        <div>
+        <a href="biography.html">Біографія</a>
+        <a href="novadays.html">Сьогодення</a>
+        <a href="gallery.html">Галерея</a>
+        <a href="friends.html">Друзі</a>
+        </div>
     </body>
 </html>

@@ -4,37 +4,36 @@
 		<meta charset="utf-8">
 		<title>friends</title>
 		<style>
-			h1{
-				text-align: center;
-				font-size: 22px;
-			}
-			.back {
-				font-style: italic;
-			}
-			h2{
-				text-align: center;
-			}
-			th{
-				border: 1px solid black;
-				text-align: center;
-				background: green;
-				color: white;
-				font-weight: bold;
-			}
-			tr:nth-child(odd){
-				background-color: gray;
-				color: white;
-			}
-			tr td:last-child{
-				text-align: right;
-			}
-			table{
-				border-collapse: collapse;
-				border: 2px solid black;
-			}
-			td{
-				border: 1px solid black;
-			}
+      h1{
+        text-align: center;
+        font-size: 22px;
+      }
+      a{
+        font-style: italic;
+      }
+      h2{
+        text-align: center;
+      }
+    caption{
+      text-align: center;
+    }
+    table th {
+          text-align: center;
+          background-color: green;
+          color: red;
+          font-weight: bold;
+        }
+        table tr:nth-child(even) {
+          background-color: grey;
+        }
+        table *:not(caption){
+          border: 2px dashed purple;
+          padding: 2px;
+          text-align: center;
+        }
+        table td:last-child {
+          text-align: right;
+        }
 		</style>
 	</head>
 
