@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    font-size: 22px;
+}
+p {
+    font-size: 120%;
+}
+body > a:nth-child(2) {
+    font-style: italic;
+}
+#content {
+    text-align: center;
+}
+nav a {
+    display: block;
+    width: 200px;
+    background-color: blue;
+    border: 2px dashed red;
+    color: white;
+    margin-bottom: 5px;
+    padding: 3px;
+}
+nav a:hover {
+    background-color: magenta;
+    color: blue;
+}
+nav a:active {
+    background-color: yellow;
+    color: black;
+}
+article {
+    font-size: 1.2em;
+
+    border: 1px solid black;
+}
+article h2 {
+    font-size: 1.6em;
+    color: black;
+}
+
+#base-info  {
+    background-color: #3266a8;
+    color: #eb2f2f; 
+}
+#pre-school  {
+    background-color: #f7c2be;
+    color: #e34d02; 
+}
+#school  {
+    background-color: #520b3b;
+    color: #88f2a9; 
+}
+#other-activities  {
+    background-color: #49f5ef;
+    color: #ff49d5; 
+}
+#university  {
+    background-color: #383559;
+    color: #fff1e8; 
+}
+.to-content {
+    font-weight: bold;
+}
+.top {
+    text-transform: uppercase;
+}
+
+@media (min-width: 993px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box {
+        flex: 1 20%;
+        margin: 20px;
+    }
+    .box:nth-child(4), .box:nth-child(5) {
+        flex: 1 45%;
+    }
+    .container article {
+        height: 100%;
+        padding: 0 5px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .box {
+        flex: 1;
+        margin: 20px;
+    }
+    .box:nth-child(4), .box:nth-child(5) {
+        flex: 100%;
+    }
+    .container article {
+        height: 100%;
+        padding: 0 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .box {
+        margin-bottom: 50px;
+    }
+}
