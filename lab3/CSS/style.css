@@ -6,14 +6,16 @@ h1 {
 	text-align: center;
 }
 
-body > div {
-	padding: 20px;
-}
-
 .box {
 	background-color: lightgreen;
 	border: 2px solid black;
 }
+
+body > div {
+	padding: 20px;
+}
+
+
 
 .caption1{
 	background-color: orange;
